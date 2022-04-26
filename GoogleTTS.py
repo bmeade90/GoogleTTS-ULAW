@@ -14,7 +14,7 @@ import google.auth.transport.requests
 def main():
    warnings.filterwarnings("ignore")
 
-   text_for_tts = 'Thank you for calling Stillwater Insurance.  The user at this extension is either on the phone or away from their desk.  Please leave a message and they will call you back.'
+   text_for_tts = 'Thank you for calling Fake Insurance Company.  The user at this extension is either on the phone or away from their desk.  Please leave a message and they will call you back.'
 
    #Authenticate with Google Cloud platform using JSON file
    os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = 'C:\\Users\\Brian\\Google Drive\\send-spark-message-16ac39805baf.json'
